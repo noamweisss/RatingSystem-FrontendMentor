@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+
+<body>
+  <!-- Rating state start -->
+
+  <main class="rating ">
+    <i class="fas fa-star"></i>
+    <h1>How did we do?</h1>
+    <p>
+      Please let us know how we did with your support request. All feedback is
+      appreciated to help us improve our offering!
+    </p>
+
+    <section>
+      <div class="number" id="1">
+        <p>1</p>
+      </div>
+      <div class="number" id="2">
+        <p>2</p>
+      </div>
+      <div class="number" id="3">
+        <p>3</p>
+      </div>
+      <div class="number" id="4">
+        <p>4</p>
+      </div>
+      <div class="number" id="5">
+        <p>5</p>
+      </div>
+    </section>
+
+    <button type="submit" id="sub"> SUBMIT </button>
+  </main>
+
+  <!-- Rating state end -->
+
+  <!-- Thank you state start -->
+
+  <main class="tnx hidden">
+    <img src="./images/illustration-thank-you.svg" alt="illustration-thank-you">
+    <div class="score">
+      You selected
+      <!-- Add rating here -->
+      out of 5
+    </div>
+    <h1>Thank you!</h1>
+     <p>
+       We appreciate you taking the time to give a rating. If
+           you ever need more support, don’t hesitate to get in touch!
+     </p>
+  </main>
+
+  <!-- Thank you state end -->
+
+  <footer class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Noam Weiss</a>.
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
